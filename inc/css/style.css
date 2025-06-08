@@ -1,0 +1,98 @@
+
+/* Icône de panier avec un fond circulaire */
+.navbar-custom .bi-cart-fill {
+    font-size: 1.5rem; /* Taille de l'icône */
+    color: black; /* Couleur de l'icône */
+    border-radius: 50%; /* Arrondi pour créer un cercle autour de l'icône */
+    padding: 20px; /* Espacement autour de l'icône */
+}
+
+
+
+/* Badge du nombre d'articles dans le panier */
+.navbar-custom .badge {
+    font-size: 0.8rem; /* Taille du texte du badge */
+    padding: 0.3rem 0.6rem; /* Espacement autour du texte */
+    background-color: #1e6b8a; /* Couleur bleue du badge */
+    color: #ffffff; /* Texte blanc pour le badge */
+    top: -5px;
+    right: -5px;
+    border-radius: 50%; /* Arrondi pour le badge */
+    font-weight: bold;
+}
+        .navbar-custom {
+            background-color: #f5f5dc; 
+        }
+        .btn-blue-pink {
+            background-color: #ffffff; 
+            color: #000000; /* Texte noir */
+            border: 2px solid #131112; /* Bordure rose vif */
+        }
+        .btn-blue-pink:hover {
+            background-color: #040404; /* Gris clair au survol */
+            color: #ebebeb; /* Texte noir au survol */
+            border-color: #f7fdff; /* Bordure bleu ciel au survol */
+        }
+        .navbar-brand {
+          
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+            font-size: 24px;
+            font-weight: 700; 
+            color: var(--text-color); 
+            text-decoration: none; 
+            transition: color 0.3s ease;
+        }
+        .navbar-brand img {
+            width: 40px; /* Taille du logo */
+            height: 40px;
+        }
+
+.footer {
+    background-color: #e9dfc0; /* Fond blanc */
+    padding: 20px; /* Espacement autour du contenu */
+    text-align: center; /* Centrer le texte */
+    color: #000000; /* Couleur de texte grise */
+}
+
+.footer-links {
+    margin-bottom: 10px; /* Espacement sous les liens */
+}
+
+.footer-links a {
+    text-decoration: none; /* Enlever la décoration des liens */
+    color: #000000; /* Couleur des liens */
+    margin: 0 15px; /* Espacement entre les liens */
+    font-size: 14px; /* Taille de la police des liens */
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Couleur des liens au survol */
+}
+
+footer hr {
+    border: 0; /* Enlever la bordure */
+    border-top: 1px solid #e0e0e0; /* Ajouter une ligne de séparation */
+    margin: 15px 0; /* Espacement avant et après la ligne */
+}
+
+.footer-text p {
+    font-size: 12px; /* Taille de la police du texte copyright */
+    margin-top: 10px; /* Espacement au-dessus du texte copyright */
+}
+button {
+    background-color: #79580f; /* Couleur bleu vif pour le bouton */
+    color: #ffffff; /* Texte en blanc */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block; /* Forcing the button to take the width of its parent */
+    margin: 20px auto; /* Centrer horizontalement avec margin auto */
+    transition: background-color 0.3s; /* Animation de transition pour le changement de couleur */
+}
+button:hover {
+    background-color: #726925; /* Changement de couleur sur hover */
+}
