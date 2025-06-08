@@ -14,10 +14,10 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_ROOT_PASSWORD: '123'
       MYSQL_DATABASE: storebook
       MYSQL_USER: root
-      MYSQL_PASSWORD: ''
+      MYSQL_PASSWORD: '123'
     volumes:
       - db_data:/var/lib/mysql
 
