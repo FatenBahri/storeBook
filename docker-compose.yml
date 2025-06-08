@@ -14,9 +14,9 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: ''
       MYSQL_DATABASE: storebook
-      MYSQL_USER: user
+      MYSQL_USER: root
       MYSQL_PASSWORD: ''
     volumes:
       - db_data:/var/lib/mysql
